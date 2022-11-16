@@ -42,10 +42,8 @@ namespace Mastermind
 
       TheRow[0] = RandomPick.Next(1, 8);
       TheRow[1] = RandomPick.Next(1, 8);
-      TheRow[2] = RandomPick.Next(1, 8); ;
+      TheRow[2] = RandomPick.Next(1, 8);
       TheRow[3] = RandomPick.Next(1, 8);
-      
-      MessageBox.Show( theString );*/
     }
 
     protected override void OnPaint(PaintEventArgs e)

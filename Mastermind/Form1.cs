@@ -44,11 +44,6 @@ namespace Mastermind
       TheRow[1] = RandomPick.Next(1, 8);
       TheRow[2] = RandomPick.Next(1, 8); ;
       TheRow[3] = RandomPick.Next(1, 8);
-
-      /*string theString = "Numbers : " + TheRow[0].ToString() + 
-                         ", " + TheRow[1].ToString() + 
-                         ", " + TheRow[2].ToString() + 
-                         ", " + TheRow[3].ToString() ;
       
       MessageBox.Show( theString );*/
     }
@@ -242,8 +237,6 @@ namespace Mastermind
               Loser.StartPosition = FormStartPosition.CenterScreen;
               Loser.Show();
             }
-
-            //MessageBox.Show( "You Lost!" );
 
             InitializeGuess();
             ThePegBoard.InitializeBoard();

@@ -1,13 +1,6 @@
-/*
- * This class is based on Mike Gold's beta code class that can be found at
- * http://www.c-sharpcorner.com/Graphics/MastermindMG.asp
- */
-
-using System;
 using System.Drawing;
 using System.Windows.Forms;
 using System.Drawing.Drawing2D;
-
 
 namespace Mastermind
 {
